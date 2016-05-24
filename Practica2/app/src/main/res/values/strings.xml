@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Practica 2</string>
+    <string name="greeting">Hello %s!</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?actionBarTabBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/red_button"
+        style="?buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorRed"
+        android:text="RED"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/green_button"
+        style="?buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorGreen"
+        android:text="GREEN"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/blue_button"
+        style="?buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorBlue"
+        android:text="BLUE"
+        android:textStyle="bold" />
+</LinearLayout>
