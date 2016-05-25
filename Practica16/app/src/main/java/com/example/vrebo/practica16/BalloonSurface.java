@@ -160,10 +160,12 @@ public class BalloonSurface extends SurfaceView implements SurfaceHolder.Callbac
                 }
                 break;
             case MotionEvent.ACTION_UP:
-                Log.d("Touch Event", "Action Up");
-                thread = new SurfaceThread(this);
-                thread.setRunning(moving = true);
-                thread.start();
+                if(!moving) {
+                    Log.d("Touch Event", "Action Up");
+                    thread = new SurfaceThread(this);
+                    thread.setRunning(moving = true);
+                    thread.start();
+                }
                 break;
         }
 
